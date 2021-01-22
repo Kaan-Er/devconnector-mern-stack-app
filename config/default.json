@@ -1,3 +1,4 @@
 {
-    "mongoURI": "mongodb+srv://kaaner:kaaner123@championes.cznrg.mongodb.net/<dbname>?retryWrites=true&w=majority"
+    "mongoURI": "mongodb+srv://kaaner:kaaner123@championes.cznrg.mongodb.net/<dbname>?retryWrites=true&w=majority",
+    "jwtSecret": "championes"
 }
