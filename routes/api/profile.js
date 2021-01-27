@@ -354,7 +354,7 @@ router.get("/github/:username", (req, res) => {
     const options = {
       uri: `https://api.github.com/users/${
         req.params.username
-      }/repos?per_page=5sort=created:asc&client_id=${config.get(
+      }/repos?per_page=5&sort=created:asc&client_id=${config.get(
         "githubClientId"
       )}&client_secret=${config.get("githubSecret")}`,
       method: "GET",
@@ -363,7 +363,7 @@ router.get("/github/:username", (req, res) => {
     request(options, (error, response, body) => {
       if (error) console.log(error);
 
-      if (response.status !== 200) {
+      if (response.statusCode !== 200) {
         return res.status(404).json({ msg: "No github profile found" });
       }
 
