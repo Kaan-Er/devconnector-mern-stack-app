@@ -57,7 +57,7 @@ const AddExperience = ({ addExperience, history }) => {
             required
           />
         </div>
-        <div classNames='form-group'>
+        <div className='form-group'>
           <input
             type='text'
             placeholder='Location'
