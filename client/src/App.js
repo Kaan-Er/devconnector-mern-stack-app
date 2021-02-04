@@ -36,6 +36,7 @@ const App = () => {
       <Router>
         <Fragment>
           <Navbar />
+         <Switch>
           <Route exact path="/" component={Landing} />
           <section className="container">
             <Alert />
@@ -69,6 +70,7 @@ const App = () => {
               <PrivateRoute exact path="/posts/:id" component={Post} />
             </Switch>
           </section>
+         <Switch>
         </Fragment>
       </Router>
     </Provider>
