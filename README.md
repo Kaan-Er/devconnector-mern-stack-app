@@ -46,3 +46,5 @@ Windows Cmd Prompt or Powershell
     $env:NODE_ENV="production"
 	node server.js
 Check in browser on [http://localhost:5000/](http://localhost:5000/)
+
+Check in heroku on live : [https://mern-devconnector-app.herokuapp.com/](mern-devconnector-app)
