@@ -70,7 +70,7 @@ const App = () => {
               <PrivateRoute exact path="/posts/:id" component={Post} />
             </Switch>
           </section>
-         <Switch>
+         </Switch>
         </Fragment>
       </Router>
     </Provider>
