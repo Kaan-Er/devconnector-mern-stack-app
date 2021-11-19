@@ -47,4 +47,3 @@ Windows Cmd Prompt or Powershell
 	node server.js
 Check in browser on [http://localhost:5000/](http://localhost:5000/)
 
-Check in heroku on live : [mern-devconnector-app](https://mern-devconnector-app.herokuapp.com/)
